@@ -41,7 +41,7 @@ const fetchBotReply = async (data) => {
 function ChatBot() {
   const [messages, setMessages] = useState([
     { type: "text", text: "Hello!", sender: "bot" },
-    { type: "text", text: "Hi there! Looking to buy, sell, or rent a property? I'm here to help with listings, pricing, appointments, and more. How can I assist you today?", sender: "bot" },
+    { type: "text", text: "Welcome! Looking to buy, rent, or explore properties? I’m here to guide you—just let me know what you need.", sender: "bot" },
     // {
       // type: "buttons",
       // buttons: ["Catalog", "Order Inquiry", "Send us Email"],
